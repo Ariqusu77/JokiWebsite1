@@ -128,7 +128,7 @@ def default():
 @app.route('/index', methods=['GET'])
 def index():
     # Main page
-    return render_template('index.html')
+    return render_template('about.html')
 
 
 @app.route('/features', methods=['GET'])
